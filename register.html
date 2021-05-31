@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Регистрация</title>
+<style>
+body {
+    font-family: Arial, Helvetica, sans-serif;
+     background-image: url(https://i.pinimg.com/originals/fb/d0/6c/fbd06c20de497e7ae9a4ffbddd8a8a6d.jpg);
+     background-attachment: scroll;
+}
+form {
+    width: 500px;
+    margin: 0 auto;
+    
+    
+}
+
+
+* {
+    box-sizing: content-box;
+}
+
+
+.container {
+    padding: 16px;
+    background-color: white;
+}
+
+
+input[type=text], input[type=password] {
+    
+    width: 90%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+    background-color: #ddd;
+    outline: none;
+}
+
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+
+.registerbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 90%;
+    opacity: 0.9;
+}
+
+.registerbtn:hover {
+    opacity: 1;
+}
+
+
+a {
+    color: dodgerblue;
+}
+
+
+.signin {
+    background-color: #f1f1f1;
+    text-align: center;
+}
+</style>
+</head>
+<body>
+
+<form action="https://www.youtube.com/">
+  <div class="container">
+    <h1>Регистрация</h1>
+    <p>Пожалуйста, заполните эту форму, чтобы создать учетную запись.</p>
+    <hr>
+
+    <label for="email"><b>Эл.почта</b></label>
+    <input type="text" placeholder="Введите эл.почту" name="email" required>
+
+    <label for="psw"><b>Пароль</b></label>
+    <input type="password" placeholder="Введите пароль" name="psw" required>
+
+    <label for="psw-repeat"><b>Повтор пароля</b></label>
+    <input type="password" placeholder="Повторите пароль" name="psw-repeat" required>
+    <hr>
+    <p>Создавая учетную запись, вы соглашаетесь с нашими <a href="#">Условия и конфиденциальность</a>.</p>
+
+    <button type="submit" class="registerbtn">Регистрация</button>
+  </div>
+  
+  <div class="container signin">
+    <p>Уже есть аккаунт? <a href="#">Войти</a>.</p>
+  </div>
+</form>
+
+</body>
+</html>
